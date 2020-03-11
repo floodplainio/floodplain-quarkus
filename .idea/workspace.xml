@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="161e8bbe-d462-48b5-9a0f-31bc5b9f4718" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1Yq1zbsqN1kMqkvf3dnuEXQaEV9" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="161e8bbe-d462-48b5-9a0f-31bc5b9f4718" name="Default Changelist" comment="" />
+      <created>1583655573669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583655573669</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="243" key="NewModule_or_Project.wizard" timestamp="1583656285768">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="550" y="243" key="NewModule_or_Project.wizard/0.23.1440.834@0.23.1440.834" timestamp="1583656285768" />
+    <state x="650" y="285" width="699" height="487" key="find.popup" timestamp="1583946721997">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="650" y="285" width="683" height="486" key="find.popup/0.23.1440.834@0.23.1440.834" timestamp="1583791905908" />
+    <state x="650" y="285" width="699" height="487" key="find.popup/0.23.1440.835@0.23.1440.835" timestamp="1583946721997" />
+    <state x="409" y="181" width="670" height="676" key="search.everywhere.popup" timestamp="1583695622657">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="409" y="181" width="670" height="676" key="search.everywhere.popup/0.23.1440.834@0.23.1440.834" timestamp="1583695622657" />
+  </component>
+</project>
