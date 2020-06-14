@@ -8,14 +8,8 @@ plugins {
 repositories {
     mavenLocal()
     mavenCentral()
-    maven {
-        name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/floodplainio/floodplain-library")
-        credentials {
-            username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
-            password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_PACKAGES_PAN")
-        }
-    }
+    jcenter()
+
 }
 
 dependencies {
@@ -23,30 +17,18 @@ dependencies {
     implementation 'io.quarkus:quarkus-kotlin'
     implementation 'io.quarkus:quarkus-config-yaml'
     implementation 'io.quarkus:quarkus-agroal'
+    implementation 'io.quarkus:quarkus-vertx'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-resteasy'
-    implementation "io.floodplain:config-runtime:${floodplain_version}"
-    implementation "io.floodplain:floodplain-reactive-topology:${floodplain_version}"
-    implementation "io.floodplain:floodplain-document-stream:${floodplain_version}"
-    implementation "io.floodplain:floodplain-document:${floodplain_version}"
-    implementation "io.floodplain:floodplain-authentication-api:${floodplain_version}"
-    implementation "io.floodplain:floodplain-core:${floodplain_version}"
-    implementation "io.floodplain:floodplain-reactive:${floodplain_version}"
-    implementation "io.floodplain:floodplain-function:${floodplain_version}"
-    implementation "io.floodplain:floodplain-reactive:${floodplain_version}"
-    implementation "io.floodplain:floodplain-version:${floodplain_version}"
+    implementation "io.floodplain:floodplain-dsl:${floodplain_version}"
     implementation "io.floodplain:immutable-api:${floodplain_version}"
     implementation "io.floodplain:immutable-impl:${floodplain_version}"
     implementation "io.floodplain:replication-api:${floodplain_version}"
     implementation "io.floodplain:replication-impl:${floodplain_version}"
     implementation "io.floodplain:replication-json:${floodplain_version}"
-    implementation "io.floodplain:replication-protobuf:${floodplain_version}"
+    implementation "io.floodplain:floodplain-stream-topology:${floodplain_version}"
     implementation "io.floodplain:streams-api:${floodplain_version}"
     implementation "io.floodplain:streams:${floodplain_version}"
-    implementation "io.floodplain:kafka-rx2:${floodplain_version}"
-    implementation "io.floodplain:pubsub-rx2:${floodplain_version}"
-    implementation "io.floodplain:kafka-converter:${floodplain_version}"
-    implementation "io.floodplain:floodplain-api:${floodplain_version}"
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
 
     testImplementation 'io.quarkus:quarkus-junit5'
@@ -71,17 +53,17 @@ allOpen {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }
 
 compileKotlin {
-    kotlinOptions.jvmTarget = JavaVersion.VERSION_1_8
+    kotlinOptions.jvmTarget = JavaVersion.VERSION_11
     kotlinOptions.javaParameters = true
 }
 
 compileTestKotlin {
-    kotlinOptions.jvmTarget = JavaVersion.VERSION_1_8
+    kotlinOptions.jvmTarget = JavaVersion.VERSION_11
 }
 
 publishing {

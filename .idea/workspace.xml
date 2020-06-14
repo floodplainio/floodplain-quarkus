@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161e8bbe-d462-48b5-9a0f-31bc5b9f4718" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/floodplain/ExampleResource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/floodplain/ExampleResource.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -53,9 +60,14 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="550" y="243" key="NewModule_or_Project.wizard/0.23.1440.834@0.23.1440.834" timestamp="1583656285768" />
-    <state x="650" y="285" width="699" height="487" key="find.popup" timestamp="1583946721997">
-      <screen x="0" y="23" width="1440" height="835" />
+    <state x="221" y="75" key="SettingsEditor" timestamp="1589058597234">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
+    <state x="221" y="75" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1589058597234" />
+    <state x="650" y="284" width="699" height="486" key="find.popup" timestamp="1589058352997">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="650" y="284" width="699" height="486" key="find.popup/0.23.1440.831@0.23.1440.831" timestamp="1589058352997" />
     <state x="650" y="285" width="683" height="486" key="find.popup/0.23.1440.834@0.23.1440.834" timestamp="1583791905908" />
     <state x="650" y="285" width="699" height="487" key="find.popup/0.23.1440.835@0.23.1440.835" timestamp="1583946721997" />
     <state x="409" y="181" width="670" height="676" key="search.everywhere.popup" timestamp="1583695622657">
